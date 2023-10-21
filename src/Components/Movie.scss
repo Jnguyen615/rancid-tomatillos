@@ -9,7 +9,10 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  cursor:pointer;
+}
+
+.movie-img {
+  cursor: pointer
 }
 
 
@@ -25,6 +28,12 @@ h2 {
     width: 100px; 
     max-width: 200px;
     height: auto;
-
   }
+}
+
+.overview {
+  display: flex;
+  flex-wrap: wrap; 
+  width: 400px;
+  text-align: justify
 }
